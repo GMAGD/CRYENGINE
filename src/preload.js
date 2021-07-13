@@ -15,8 +15,8 @@ window.onload = function() {
   var script = document.createElement("script");
   script.src = "https://code.jquery.com/jquery-2.1.4.min.js";
   script.onload = script.onreadystatechange = function() {
-
-    console.log(document);
+    let webview = document.getElementById("webview");
+    console.log(webview);
   
   };
   document.body.appendChild(script);
